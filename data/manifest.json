@@ -1,0 +1,14 @@
+{
+	"user": {
+		"Windows": [ { "version": "SPN 32bit",     "url": "SecurePrivateNetwork-32bit-Client.exe" },
+					 { "version": "SPN 64bit",     "url": "SecurePrivateNetwork-64bit-Client.exe" }],
+		"Mac":     [ { "version": "SPN 64bit", "url": "SecurePrivateNetwork108.pkg" }],
+		"Linux":   [ { "version": "SPN 34bit","url": "SecurePrivateNetwork-32bit-3.1.15.deb" },
+					 { "version": "SPN 64bit","url": "SecurePrivateNetwork-64bit-3.1.15.deb" } ]
+	},
+	"admin": {
+		"Windows": [ { "version": "Server - 312bit", "url": "SecurePrivateNetwork-32bit-Server.exe" },
+					 { "version": "Server - 64bit", "url": "SecurePrivateNetwork-64bit-Server.exe" }]
+		
+	}
+}
