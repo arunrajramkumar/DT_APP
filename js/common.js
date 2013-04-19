@@ -34,6 +34,7 @@ var modalType, modalSection, secondAlert = false;
 function fnShowAlert(msg,type,section){
 	modalType = type;
 	modalSection = section;
+	
 	$('.msg-modal-body p').html(msg);
 	var footerref = ".modal-footer ."+type
 	$(footerref).removeClass('hide');
